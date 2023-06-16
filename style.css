@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+  margin: 140px 944px 1916px 111px;
+  height: 250px;
+  width: 1440px;
+}
+
+.gallery-box {
+  width: 385px;
+  height: 180px;
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.image {
+  position: absolute;
+  border-radius: 0;
+}
+
+.image1 {
+  height: 600px;
+  width: 384px;
+  left: 506px;
+  top: 140px;
+}
+
+.image2 {
+  height: 284px;
+  width: 384px;
+  left: 922px;
+  top: 140px;
+}
+
+.image3 {
+  height: 284px;
+  width: 384px;
+  left: 922px;
+  top: 456px;
+}
+
+.image4 {
+  height: 400px;
+  width: 800px;
+  left: 506px;
+  top: 772px;
+}
+
+.image5 {
+  height: 284px;
+  width: 384px;
+  left: 506px;
+  top: 1204px;
+}
+
+.image6 {
+  height: 600px;
+  width: 384px;
+  left: 922px;
+  top: 1204px;
+}
+
+.image7 {
+  height: 284px;
+  width: 384px;
+  left: 506px;
+  top: 1520px;
+}
+
+.image8 {
+  height: 400px;
+  width: 800px;
+  left: 506px;
+  top: 1836px;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  body {
+    margin: 140px 16px;
+    height: auto;
+    width: auto;
+  }
+  
+  .image {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-box {
+    width: 100%;
+    text-align: center;
+  }
+}
